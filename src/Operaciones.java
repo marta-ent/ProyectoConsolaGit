@@ -9,7 +9,7 @@ public class Operaciones {
         int b = teclado.nextInt();
         int multiplicacion= a*b;
         System.out.println("Resultado de la multiplicacion es= "+ multiplicacion);
-        float div= a/b;
+        int div= a/b;
         System.out.println("Resultado de la division es= "+ div);
         teclado.close();
     }
